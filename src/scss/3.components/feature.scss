@@ -1,0 +1,33 @@
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff; // Optional, adjust as per design
+    margin-top: 100px;
+
+
+    
+    .feature {
+      text-align: center;
+      max-width: 200px;
+  
+      .feature-icon {
+        font-size: 2rem; // Adjust for the size of icons
+        margin-bottom: 10px;
+        color: #333; // Adjust to match your theme
+      }
+  
+      .feature-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 5px;
+      }
+  
+      .feature-description {
+        font-size: 1rem;
+        color: #666;
+      }
+    }
+  }
+  

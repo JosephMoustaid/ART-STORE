@@ -1,0 +1,35 @@
+.checkout-page {
+    padding: 20px;
+    min-height: calc(100vh - 100px);
+
+  
+  .checkout-title {
+    margin-bottom: 20px;
+  }
+  form{
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  .order-summary {
+    margin-top: 40px;
+  }
+  
+  .order-summary table {
+    width: 100%;
+  }
+  
+  .order-summary td {
+    padding: 10px 0;
+  }
+  
+  .order-summary td:first-child {
+    text-align: left;
+  }
+  
+  .order-summary td:last-child {
+    text-align: right;
+  }
+}

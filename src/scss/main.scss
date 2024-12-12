@@ -1,0 +1,32 @@
+
+@use '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+@use './1.base/base';
+
+@import './3.components/nav.scss';
+@import './3.components/footer.scss';
+@import './3.components/sign-in-form.scss';
+@import './3.components/hero.scss';
+@import './3.components/about.scss';
+@import './3.components/links.scss';
+@import './3.components/navigate.scss';
+@import './3.components/card.scss';
+@import './3.components/shop.scss';
+@import './3.components/carousel.scss';
+@import './3.components/singleItem.scss';
+@import './3.components/goBack.scss';
+@import './3.components/hero-carousel.scss';
+@import './3.components/payement.scss';
+@import './3.components/feature.scss';
+
+
+@import './5.pages/contact.scss';
+@import './5.pages/gallery.scss';
+@import './5.pages/blog.scss';
+@import './5.pages/cart.scss';
+@import './5.pages/shop.scss';
+@import './5.pages/single-item.scss';
+@import './5.pages/checkout.scss';
+

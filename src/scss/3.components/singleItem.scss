@@ -1,0 +1,41 @@
+.single-item-page{
+.single-item-hero {
+    background: linear-gradient(to right, #f3f4f6, #ffffff);
+    padding: 4rem 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .single-item-content {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .single-item-content img {
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .single-item-content img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  button {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+    cursor: pointer;
+  }
+  
+  
+}
+

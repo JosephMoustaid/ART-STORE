@@ -1,0 +1,55 @@
+.navigate{
+    background-color: rgb(38, 38, 38);
+    background-image: url("./navigate2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    #checkMoreArt-shoping{
+        padding-top: 100px;
+    }
+    margin-top: 150px !important;
+    .shop-sec{
+        margin:10px auto;
+        padding: 9px;
+        text-transform: uppercase;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #ffffff;
+        width: 70%;
+    }
+    
+    .view{
+        margin: 10px auto;
+        border: 2px solid white;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 14px;
+        color: #ffffff;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+    }
+    .rectangle-block-shoping {
+        filter: brightness(1) saturate(1) contrast(1) ;
+        transform: scale(1) translateZ(0);
+        transition: 
+          filter 200ms linear,
+          transform 200ms linear;
+          border: none;
+          border-radius: 0;
+          //background-color: black;
+          //background-color: transparent;
+          background-color: rgba(0, 0, 0, 0.623);
+          margin-bottom: 5px;
+    }
+    
+    .rectangle-block-shoping:hover {
+        transform: scale(1.03) translateZ(0);
+    }
+    
+    .row.m-auto:hover .rectangle-block-shoping:not(:hover) {
+        filter: brightness(0.5) saturate(0) contrast(1.2) blur(3px) ;
+        border-color: transparent;
+        transition: filter 200ms linear, border-color 200ms linear;
+    }
+}

@@ -1,0 +1,12 @@
+#footer{
+    color: rgba(255, 255, 255, 0.748);
+    &:hover{
+        color: white;
+    }
+    a{
+        color: rgba(255, 255, 255, 0.743);
+        &:hover{
+            color: white;
+        }
+    }
+}

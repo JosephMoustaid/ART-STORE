@@ -1,0 +1,189 @@
+/*----------------------------------NAV------------------------------------*/
+#navbar{
+    height: 100px;
+    @media (max-width: 1150px) {
+        height: 70px;
+    }
+
+    .offcanvas-list{
+        li{
+            padding-left: 8px;
+        }
+    }
+}
+#navbar--header{
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: #fff;
+    height: 70px;
+}
+ .navbar--headers{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #585858;
+    height: 60px;
+    padding: 10px;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+a:hover{
+    color: #000000;
+}
+.social--media{
+    height: 90px;
+}
+
+@media (max-width: 900px) {
+    #ham-menu-img{
+        height: 20px;
+        width: 20px;
+    }
+}
+@media (min-width: 901px)
+{
+    #ham-menu-img{
+        margin-top: 15px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.login{
+    background-color: black;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    height: auto;
+    padding: 22px;
+    text-transform: uppercase;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+#navbarexpanded{
+    font-weight: 500;
+    font-size: 15px;
+    color: #585858;
+    padding: 15px;
+    text-transform: uppercase;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+body a {
+    text-decoration: none;
+    color: #585858;
+}
+#navbarexpanded {
+    display: block; /* Visible by default */
+    justify-content: center;
+}
+#offcanvasNav{
+    width: 25%;
+    height: auto;
+}
+/* Media query for screens less than 1000 pixels */
+@media (max-width: 1150px) {
+    #navbarexpanded {
+        display: none; 
+    }
+    #offcanvasNav{
+        width: 90%;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1300px)
+{
+    #cardImage{
+        margin-left: 200px;
+    }
+    .navbar--headers{
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 18px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 1301px) {
+    #cardImage{
+        margin-left: 250px;
+    }
+}
+
+
+@keyframes left {
+  0%   { left:0px; top:0px;}
+  100% {left:20px; top:0px;}
+}
+.menuElements {
+    position: relative;
+    left: 0px; /* Set initial state */
+  }
+  
+  .menuElements:hover {
+    animation: left .5s ease-in-out forwards;
+  }
+  
+  .menuElements:not(:hover) {
+    animation: left-reverse .5s ease-in-out forwards;
+  }
+  
+  @keyframes left-reverse {
+    0%   { left: 20px; top: 0px; }
+    100% { left: 0px; top: 0px; }
+  }
+/*----------------------------------NAV END------------------------------------*/
+
+
+
+/*------------------------------------Go to top-------------------------------------*/
+
+.scroll-to-top-container{
+    display: none;
+    z-index: 1000;
+    border: 2px solid rgb(0, 0, 0) ;
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.scroll-to-top {
+    z-index: 1000;
+    /*
+    bottom: 20px;
+    right: 20px;
+    */
+    width: 38px;
+    height: 38px;
+    background-color: #5a5a5a;
+    color: white;
+    border: 2px  solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .scroll-to-top.show , .scroll-to-top-container.show{
+    display: block;
+  }
+  
+  /* Arrow icon */
+  .scroll-to-top .arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white; /* Change border-bottom to border-top */
+    display: inline-block;
+    margin: 3px auto;
+    transform: rotate(180deg); /* Rotate the arrow to point upwards */
+  }
+  
+  /*------------------------------------Go to top END-------------------------------------*/
+  
+  
